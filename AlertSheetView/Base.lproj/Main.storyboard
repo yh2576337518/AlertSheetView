@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="81I-kh-two">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="3zi-Ga-aiO">
+            <objects>
+                <viewController id="81I-kh-two" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i8P-wk-XZ2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J1x-MM-cze">
+                                <rect key="frame" x="50" y="170" width="275" height="35"/>
+                                <color key="backgroundColor" red="0.19476064909999999" green="0.93040797009999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="n9E-ba-VPI"/>
+                                </constraints>
+                                <state key="normal" title="ActionSheet-1">
+                                    <color key="titleColor" red="0.39651420780000002" green="0.4308827167" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="typeOne:" destination="81I-kh-two" eventType="touchUpInside" id="fdb-ft-POb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLC-Du-5bv">
+                                <rect key="frame" x="50" y="280" width="275" height="35"/>
+                                <color key="backgroundColor" red="0.19476064909999999" green="0.93040797009999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="FN4-5X-llE"/>
+                                </constraints>
+                                <state key="normal" title="ActionSheet-3">
+                                    <color key="titleColor" red="0.39651420780000002" green="0.4308827167" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="typeThree:" destination="81I-kh-two" eventType="touchUpInside" id="zeY-ya-GPj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Uv-VA-JUo">
+                                <rect key="frame" x="50" y="225" width="275" height="35"/>
+                                <color key="backgroundColor" red="0.19476064909999999" green="0.93040797009999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="k1W-IM-IXl"/>
+                                </constraints>
+                                <state key="normal" title="ActionSheet-2">
+                                    <color key="titleColor" red="0.39651420780000002" green="0.4308827167" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="typeTwo:" destination="81I-kh-two" eventType="touchUpInside" id="f8S-XE-0iV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Xn-hn-Z1H">
+                                <rect key="frame" x="50" y="335" width="275" height="35"/>
+                                <color key="backgroundColor" red="0.19476064909999999" green="0.93040797009999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="JJ0-Ns-XQT"/>
+                                </constraints>
+                                <state key="normal" title="ActionSheet-4">
+                                    <color key="titleColor" red="0.39651420780000002" green="0.4308827167" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="typeFour:" destination="81I-kh-two" eventType="touchUpInside" id="uAp-mo-bP7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0Xn-hn-Z1H" firstAttribute="leading" secondItem="mXR-Cm-Kwl" secondAttribute="leading" constant="50" id="35P-RA-39p"/>
+                            <constraint firstItem="J1x-MM-cze" firstAttribute="leading" secondItem="mXR-Cm-Kwl" secondAttribute="leading" constant="50" id="KP7-YU-X9K"/>
+                            <constraint firstItem="1Uv-VA-JUo" firstAttribute="leading" secondItem="mXR-Cm-Kwl" secondAttribute="leading" constant="50" id="SqG-kZ-hOH"/>
+                            <constraint firstItem="0Xn-hn-Z1H" firstAttribute="top" secondItem="TLC-Du-5bv" secondAttribute="bottom" constant="20" id="blo-4y-2NN"/>
+                            <constraint firstItem="mXR-Cm-Kwl" firstAttribute="trailing" secondItem="TLC-Du-5bv" secondAttribute="trailing" constant="50" id="cC3-Th-1xK"/>
+                            <constraint firstItem="TLC-Du-5bv" firstAttribute="top" secondItem="1Uv-VA-JUo" secondAttribute="bottom" constant="20" id="cGG-Ff-Y5E"/>
+                            <constraint firstItem="TLC-Du-5bv" firstAttribute="leading" secondItem="mXR-Cm-Kwl" secondAttribute="leading" constant="50" id="gDb-pE-ziB"/>
+                            <constraint firstItem="J1x-MM-cze" firstAttribute="top" secondItem="mXR-Cm-Kwl" secondAttribute="top" constant="150" id="k89-BZ-0WB"/>
+                            <constraint firstItem="1Uv-VA-JUo" firstAttribute="top" secondItem="J1x-MM-cze" secondAttribute="bottom" constant="20" id="o7t-tE-p67"/>
+                            <constraint firstItem="mXR-Cm-Kwl" firstAttribute="trailing" secondItem="J1x-MM-cze" secondAttribute="trailing" constant="50" id="tPr-1D-azD"/>
+                            <constraint firstItem="mXR-Cm-Kwl" firstAttribute="trailing" secondItem="0Xn-hn-Z1H" secondAttribute="trailing" constant="50" id="uk7-F7-rx9"/>
+                            <constraint firstItem="mXR-Cm-Kwl" firstAttribute="trailing" secondItem="1Uv-VA-JUo" secondAttribute="trailing" constant="50" id="wQz-m8-oHl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mXR-Cm-Kwl"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7fu-48-Zwo" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
